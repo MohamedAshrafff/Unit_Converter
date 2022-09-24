@@ -1,3 +1,77 @@
 body {
     margin: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 30%;
+    background-color: #6943FF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.container p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+input {
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #B295FF;
+    height: 5rem;
+    width: 10rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #FFFFFF;
+    color: #6943FF;
+    padding: 10px 20px;
+    font-weight: 100;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.results {
+    height: 70%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.results div {
+    background-color: #273549;
+    width: 80%;
+    height: 9rem;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+.head {
+    color: #CCC1FF;
+    padding-bottom: 10px;
 }
